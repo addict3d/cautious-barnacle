@@ -1,3 +1,7 @@
+do
+  return
+end
+
 if vim.g.did_load_neogit_plugin then
   return
 end
