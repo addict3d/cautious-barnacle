@@ -4,6 +4,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     gen-luarc.url = "github:mrcjkb/nix-gen-luarc-json";
+    gen-luarc.inputs.nixpkgs.follows = "nixpkgs";
 
     # Add bleeding-edge plugins here.
     # They can be updated with `nix flake update` (make sure to commit the generated flake.lock)
