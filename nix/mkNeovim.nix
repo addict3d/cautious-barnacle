@@ -214,4 +214,5 @@ with lib;
         = if isCustomAppName 
             then appName 
             else oa.meta.mainProgram;
+      meta.description = "custom neovim";
     })
